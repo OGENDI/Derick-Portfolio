@@ -1,0 +1,23 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #141E2D;
+    
+}
+
+.home {
+    background-color: #465D80;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.home > img {
+    height: 600px;
+    z-index: 0;
+}
+
+#intro {
+    z-index: 1;
+   
+}
