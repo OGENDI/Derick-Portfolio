@@ -5,6 +5,10 @@ header {
     
 }
 
+body {
+    background-color: #465D80;
+} 
+
 #menu  {
     display: flex;
    
@@ -25,9 +29,10 @@ header {
 }
 
 .home {
-    background-color: #465D80;
     display: flex;
     justify-content: space-between;
+    border-bottom: dashed;
+    border-color: oldlace;
 
 }
 
@@ -43,7 +48,8 @@ header {
     z-index: 0;
 }
 
-#intro {
-    z-index: 1;
-   
+#question {
+    color: #C4C4C4;
+    font-size: 3.4rem;
+    text-align: center;
 }
