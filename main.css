@@ -7,6 +7,8 @@ header {
 
 body {
     background-color: #465D80;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 } 
 
 #menu  {
@@ -24,10 +26,13 @@ body {
 #name {
     color: #866969;
     font-size: 1.4rem;
-    padding-right: 25%;
+    padding-right: 15%;
     font-style: oblique;
 }
 
+q {
+    font-size: 2.1rem;
+}
 .home {
     display: flex;
     justify-content: space-between;
@@ -41,15 +46,80 @@ body {
     height: 70%;
     margin: 60px 300px;
     padding: 30px;
+    text-align: center;
+}
+
+#intro:hover {
+    font-size: 2.0rem;
+    font-size-adjust: 20px;
+    color: #C4C4C4;
+    background-color: #141E2D;
+    border-radius: 3%;
+    
 }
 
 .home > img {
     height: 600px;
     z-index: 0;
+    margin-right: 80px;
 }
 
 #question {
     color: #C4C4C4;
     font-size: 3.4rem;
     text-align: center;
+}
+
+#quo {
+    font-size: 3.1rem;
+    color: #C4C4C4;
+}
+
+.about0 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    
+}
+
+.about0 p:hover {
+    font-size: 2.0rem;
+    font-size-adjust: 20px;
+    color: #C4C4C4;
+    background-color: #141E2D;
+    border-radius: 3%;
+    
+}
+
+.skills {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  
+}
+
+#web {
+    display: flex;
+    height: 150px;
+}
+
+#one {
+    font-size: 1.4rem;
+    background-color: #C4C4C4;
+    border-radius: 3%;
+    padding: 10px;
+}
+
+#two {
+    font-size: 1.4rem;
+    background-color: #C4C4C4;
+    border-radius: 3%;
+    padding: 10px;
+}
+
+#three {
+    font-size: 1.4rem;
+    background-color: #C4C4C4;
+    border-radius: 3%;
+    padding: 10px;
 }
