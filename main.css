@@ -91,10 +91,17 @@ q {
     
 }
 
+.skills0 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #C4C4C4;
+}
+
 #skills {
     display: flex;
     justify-content: space-around;
     text-align: center;
+    color: black;
   
 }
 
@@ -133,5 +140,25 @@ q {
     text-align: center;
     color: #C4C4C4;
     
+    
+}
+
+#contact {
+    color: #C4C4C4;
+    text-align: center;
+}
+
+#talk {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.6rem;
+    color: black;
+    text-decoration: none;
+            
+}
+
+#last {
+    border-left-style: solid;
+    padding-left: 15px;
     
 }
