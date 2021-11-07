@@ -5,11 +5,37 @@ header {
     
 }
 
+#menu  {
+    display: flex;
+   
+    
+}
+
+#menu h2 a {
+    text-decoration: none;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+#name {
+    color: #866969;
+    font-size: 1.4rem;
+    padding-right: 25%;
+    font-style: oblique;
+}
+
 .home {
     background-color: #465D80;
     display: flex;
     justify-content: space-between;
 
+}
+
+#intro {
+    background-color: #C4C4C4;
+    height: 70%;
+    margin: 60px 300px;
+    padding: 30px;
 }
 
 .home > img {
