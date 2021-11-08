@@ -3,6 +3,7 @@ header {
     justify-content: space-between;
     background-color: #141E2D;
     
+    
 }
 
 body {
@@ -89,6 +90,12 @@ q {
     background-color: #141E2D;
     border-radius: 3%;
     
+}
+
+#about {
+    background-image: url(./images/about.png);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .skills0 {
