@@ -2,7 +2,10 @@ header {
     display: flex;
     justify-content: space-between;
     background-color: #141E2D;
-    
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
     
 }
 
@@ -24,6 +27,11 @@ body {
     color: #FFFFFF;
 }
 
+#menu h2 a:hover {
+    background: #ddd;
+    color: black;
+  }
+
 #name {
     color: #866969;
     font-size: 1.4rem;
@@ -37,8 +45,8 @@ q {
 .home {
     display: flex;
     justify-content: space-between;
-    border-bottom: dashed;
     border-color: oldlace;
+    height: 100vh;
 
 }
 
@@ -50,7 +58,7 @@ q {
     text-align: center;
 }
 
-#intro:hover {
+/* #intro:hover {
     font-size: 2.0rem;
     font-size-adjust: 20px;
     color: #C4C4C4;
@@ -58,12 +66,13 @@ q {
     border-radius: 3%;
     white-space: nowrap;
     
-}
+} */
 
 .home > img {
     height: 600px;
-    z-index: 0;
-    margin-right: 80px;
+    /* z-index: 0; */
+    margin-top: 40px;
+    margin-right: 200px;
 }
 
 #question {
@@ -84,7 +93,7 @@ q {
     
 }
 
-.about0 p:hover {
+/* .about0 p:hover {
     font-size: 2.0rem;
     font-size-adjust: 20px;
     color: black;
@@ -94,19 +103,21 @@ q {
     
     
     
-}
+} */
 
 #about {
     background-image: url(./images/about.jpg);
     background-size: cover;
     background-attachment: fixed;
     color: #C4C4C4;
+    height: 100vh;
 }
 
 #skills0 {
     font-size: 1.5rem;
     text-align: center;
     color: #C4C4C4;
+    height: 100vh;
 }
 
 #skills {
@@ -146,6 +157,7 @@ q {
 #projects {
     font-size: 1.5rem;
     text-align: center;
+    height: 100vh;
 }
 
 #projects h1 {
@@ -175,4 +187,3 @@ q {
     
 }
 
-#last0
