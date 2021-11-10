@@ -45,22 +45,27 @@ q {
 }
 #home {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     border-color: oldlace;
     height: 100vh;
 
 }
 
 #intro {
-    background-color: #C4C4C4;
-    height: 70%;
-    margin: 60px 300px;
-    padding: 30px;
     text-align: center;
+    font-size: 2.1rem;
+    margin-top: 3%;
+    
+}
+
+#intro img {
+    height: 500px;
+    
 }
 
 .home > img {
-    height: 600px;
+    height: 400px;
     margin-left: 10px;
    
 }
@@ -77,23 +82,32 @@ q {
 }
 
 .about0 {
-    margin-bottom:  10;
     display: flex;
-    justify-content: space-around;
-    font-size: 1.5rem;
+    /* justify-content: space-around; */
+    font-size: 1.8rem;
+    margin-left: 15%
     
 }
+ 
 
 #about00 {
     display: block;
     margin-left: 11%;
 }
 
+button {
+  padding: 10px;
+  font-size: 1.3rem;
+  border-radius: 10px;
+  background-color: #C4C4C4;
+}
+
 #skills0 {
     font-size: 1.5rem;
     text-align: center;
     color: #C4C4C4;
-    height: 100vh;
+    height: 70vh;
+   
 }
 
 #skills {
@@ -133,7 +147,7 @@ q {
 #projects {
     font-size: 1.5rem;
     text-align: center;
-    height: 100vh;
+    height: 80vh;
 }
 
 #projects h1 {
@@ -143,18 +157,21 @@ q {
     
 }
 
+
 #contact {
     color: #C4C4C4;
     text-align: center;
     height: 50vh;
     background-color: #141E2D;
+    font-size: 2.0rem;
+    font-weight: 100;
 }
 
 #talk {
     display: flex;
     justify-content: space-around;
-    font-size: 1.6rem;
-    color: black;
+    font-size: 2.1rem;
+    color: #C4C4C4;
     
             
 }
