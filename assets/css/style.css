@@ -357,7 +357,7 @@ img{
 }
 
 .home__scroll-button:hover{
-    transform: translate(.25rem);
+    transform: translateY(0.25rem);
 }
 
 .home__scroll-mouse{
@@ -1102,7 +1102,7 @@ img{
 /* For medium devices */
 @media screen and (min-width: 560px){
     .home__content{
-        grid-template-columns: max-content1fr 1fr;
+        grid-template-columns: max-content 1fr 1fr;
     }
     .home__data{
         grid-column: initial;
@@ -1319,5 +1319,5 @@ img{
     .contact__inputs{
         grid-template-columns: repeat(2, 1fr);
     }
-
+ 
 }
